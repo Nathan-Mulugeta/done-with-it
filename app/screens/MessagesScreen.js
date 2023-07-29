@@ -9,8 +9,10 @@ import ListItemDeleteAction from "../components/ListItemDeleteAction";
 const initialMessages = [
   {
     id: 1,
-    title: "T1",
-    description: "D1",
+    title:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sit eius, molestias ex dicta doloremque vitae laboriosam quisquam omnis eligendi deleniti aliquam aperiam et consectetur, veniam mollitia ipsam asperiores! Esse ipsa ad temporibus maiores quibusdam exercitationem dolorum eos. Tempora maiores fuga amet iusto porro dolore debitis quisquam quasi obcaecati voluptas.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sit eius, molestias ex dicta doloremque vitae laboriosam quisquam omnis eligendi deleniti aliquam aperiam et consectetur, veniam mollitia ipsam asperiores! Esse ipsa ad temporibus maiores quibusdam exercitationem dolorum eos. Tempora maiores fuga amet iusto porro dolore debitis quisquam quasi obcaecati voluptas.",
     image: require("../assets/mosh.jpg"),
   },
   {
