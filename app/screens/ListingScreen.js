@@ -5,6 +5,7 @@ import Card from "../components/Card";
 import { StyleSheet } from "react-native";
 import colors from "../config/colors";
 import routes from "../navigation/routes";
+import ActivityIndicator from "../components/ActivityIndicator";
 
 const listings = [
   {
@@ -24,6 +25,7 @@ const listings = [
 function ListingScreen({ navigation }) {
   return (
     <Screen style={styles.screen}>
+      {/* <ActivityIndicator visible={true} /> */}
       <FlatList
         data={listings}
         keyExtractor={(listing) => listing.id.toString()}
