@@ -31,9 +31,9 @@ function AccountScreen({ navigation }) {
       <GestureHandlerRootView>
         <View style={styles.container}>
           <ListItem
-            title="Mosh Hamedani"
-            subTitle="programmingwithmosh@gmail.com"
-            image={require("../assets/mosh.jpg")}
+            title="Nathan Mulugeta"
+            subTitle="nathanmulugetacoding@gmail.com"
+            image={require("../assets/nathan.jpg")}
           />
         </View>
         <View style={styles.container}>
